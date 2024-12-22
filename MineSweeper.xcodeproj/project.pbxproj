@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CDF788BA0FE72D0B574DB08 /* Pods_MineSweeper_MineSweeperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2C21AB1ADDA91593E4AC27 /* Pods_MineSweeper_MineSweeperUITests.framework */; };
+		DC37C94807147DBC894F204C /* Pods_MineSweeper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D32A90F380E279CFDF69D49 /* Pods_MineSweeper.framework */; };
+		FFAC5F0F79562ACFD3E3BBAF /* Pods_MineSweeperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB6A8D9C7346BE76C348BAF /* Pods_MineSweeperTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B52E84A2D181AC5007511E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B52E82B2D181AC1007511E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B52E8322D181AC1007511E6;
+			remoteInfo = MineSweeper;
+		};
+		1B52E8542D181AC5007511E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B52E82B2D181AC1007511E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B52E8322D181AC1007511E6;
+			remoteInfo = MineSweeper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EB6A8D9C7346BE76C348BAF /* Pods_MineSweeperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MineSweeperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1710286202BBA843A25168ED /* Pods-MineSweeper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MineSweeper.release.xcconfig"; path = "Target Support Files/Pods-MineSweeper/Pods-MineSweeper.release.xcconfig"; sourceTree = "<group>"; };
+		1B52E8332D181AC1007511E6 /* MineSweeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MineSweeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B52E8492D181AC5007511E6 /* MineSweeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MineSweeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B52E8532D181AC5007511E6 /* MineSweeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MineSweeperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D32A90F380E279CFDF69D49 /* Pods_MineSweeper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MineSweeper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5C717E9E7A8B1681BC543ED /* Pods-MineSweeper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MineSweeper.debug.xcconfig"; path = "Target Support Files/Pods-MineSweeper/Pods-MineSweeper.debug.xcconfig"; sourceTree = "<group>"; };
+		D8FAF1F068B4DCE3E4CC736A /* Pods-MineSweeper-MineSweeperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MineSweeper-MineSweeperUITests.release.xcconfig"; path = "Target Support Files/Pods-MineSweeper-MineSweeperUITests/Pods-MineSweeper-MineSweeperUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DBF9C3130C9E9DADAB4C6272 /* Pods-MineSweeperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MineSweeperTests.release.xcconfig"; path = "Target Support Files/Pods-MineSweeperTests/Pods-MineSweeperTests.release.xcconfig"; sourceTree = "<group>"; };
+		EA2C21AB1ADDA91593E4AC27 /* Pods_MineSweeper_MineSweeperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MineSweeper_MineSweeperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07A000BAF2AF7A5D1A6D74D /* Pods-MineSweeperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MineSweeperTests.debug.xcconfig"; path = "Target Support Files/Pods-MineSweeperTests/Pods-MineSweeperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F168A5514301F2E9F895814D /* Pods-MineSweeper-MineSweeperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MineSweeper-MineSweeperUITests.debug.xcconfig"; path = "Target Support Files/Pods-MineSweeper-MineSweeperUITests/Pods-MineSweeper-MineSweeperUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1B52E85B2D181AC5007511E6 /* Exceptions for "MineSweeper" folder in "MineSweeper" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1B52E8322D181AC1007511E6 /* MineSweeper */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1B52E8352D181AC1007511E6 /* MineSweeper */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1B52E85B2D181AC5007511E6 /* Exceptions for "MineSweeper" folder in "MineSweeper" target */,
+			);
+			path = MineSweeper;
+			sourceTree = "<group>";
+		};
+		1B52E84C2D181AC5007511E6 /* MineSweeperTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MineSweeperTests;
+			sourceTree = "<group>";
+		};
+		1B52E8562D181AC5007511E6 /* MineSweeperUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MineSweeperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B52E8302D181AC1007511E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC37C94807147DBC894F204C /* Pods_MineSweeper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B52E8462D181AC5007511E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFAC5F0F79562ACFD3E3BBAF /* Pods_MineSweeperTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B52E8502D181AC5007511E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CDF788BA0FE72D0B574DB08 /* Pods_MineSweeper_MineSweeperUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B52E82A2D181AC1007511E6 = {
+			isa = PBXGroup;
+			children = (
+				1B52E8352D181AC1007511E6 /* MineSweeper */,
+				1B52E84C2D181AC5007511E6 /* MineSweeperTests */,
+				1B52E8562D181AC5007511E6 /* MineSweeperUITests */,
+				1B52E8342D181AC1007511E6 /* Products */,
+				51CBB187B8E97BEB21BED647 /* Pods */,
+				ACDD1B8335566E90CC5205A3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1B52E8342D181AC1007511E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B52E8332D181AC1007511E6 /* MineSweeper.app */,
+				1B52E8492D181AC5007511E6 /* MineSweeperTests.xctest */,
+				1B52E8532D181AC5007511E6 /* MineSweeperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51CBB187B8E97BEB21BED647 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5C717E9E7A8B1681BC543ED /* Pods-MineSweeper.debug.xcconfig */,
+				1710286202BBA843A25168ED /* Pods-MineSweeper.release.xcconfig */,
+				F168A5514301F2E9F895814D /* Pods-MineSweeper-MineSweeperUITests.debug.xcconfig */,
+				D8FAF1F068B4DCE3E4CC736A /* Pods-MineSweeper-MineSweeperUITests.release.xcconfig */,
+				F07A000BAF2AF7A5D1A6D74D /* Pods-MineSweeperTests.debug.xcconfig */,
+				DBF9C3130C9E9DADAB4C6272 /* Pods-MineSweeperTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ACDD1B8335566E90CC5205A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D32A90F380E279CFDF69D49 /* Pods_MineSweeper.framework */,
+				EA2C21AB1ADDA91593E4AC27 /* Pods_MineSweeper_MineSweeperUITests.framework */,
+				0EB6A8D9C7346BE76C348BAF /* Pods_MineSweeperTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B52E8322D181AC1007511E6 /* MineSweeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B52E85C2D181AC5007511E6 /* Build configuration list for PBXNativeTarget "MineSweeper" */;
+			buildPhases = (
+				54BA74EB16DADE85C14BDE0C /* [CP] Check Pods Manifest.lock */,
+				1B52E82F2D181AC1007511E6 /* Sources */,
+				1B52E8302D181AC1007511E6 /* Frameworks */,
+				1B52E8312D181AC1007511E6 /* Resources */,
+				13BC6C289072F3F4328F3992 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1B52E8352D181AC1007511E6 /* MineSweeper */,
+			);
+			name = MineSweeper;
+			productName = MineSweeper;
+			productReference = 1B52E8332D181AC1007511E6 /* MineSweeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B52E8482D181AC5007511E6 /* MineSweeperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B52E8612D181AC5007511E6 /* Build configuration list for PBXNativeTarget "MineSweeperTests" */;
+			buildPhases = (
+				FDBF1E8C8F91036FA2FB7D9A /* [CP] Check Pods Manifest.lock */,
+				1B52E8452D181AC5007511E6 /* Sources */,
+				1B52E8462D181AC5007511E6 /* Frameworks */,
+				1B52E8472D181AC5007511E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B52E84B2D181AC5007511E6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1B52E84C2D181AC5007511E6 /* MineSweeperTests */,
+			);
+			name = MineSweeperTests;
+			productName = MineSweeperTests;
+			productReference = 1B52E8492D181AC5007511E6 /* MineSweeperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B52E8522D181AC5007511E6 /* MineSweeperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B52E8642D181AC5007511E6 /* Build configuration list for PBXNativeTarget "MineSweeperUITests" */;
+			buildPhases = (
+				08B6A466B563E7BAF4CCB32A /* [CP] Check Pods Manifest.lock */,
+				1B52E84F2D181AC5007511E6 /* Sources */,
+				1B52E8502D181AC5007511E6 /* Frameworks */,
+				1B52E8512D181AC5007511E6 /* Resources */,
+				8899A29C5DB410ACB3ABB790 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B52E8552D181AC5007511E6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1B52E8562D181AC5007511E6 /* MineSweeperUITests */,
+			);
+			name = MineSweeperUITests;
+			productName = MineSweeperUITests;
+			productReference = 1B52E8532D181AC5007511E6 /* MineSweeperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B52E82B2D181AC1007511E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					1B52E8322D181AC1007511E6 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					1B52E8482D181AC5007511E6 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 1B52E8322D181AC1007511E6;
+					};
+					1B52E8522D181AC5007511E6 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 1B52E8322D181AC1007511E6;
+					};
+				};
+			};
+			buildConfigurationList = 1B52E82E2D181AC1007511E6 /* Build configuration list for PBXProject "MineSweeper" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B52E82A2D181AC1007511E6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1B52E8342D181AC1007511E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B52E8322D181AC1007511E6 /* MineSweeper */,
+				1B52E8482D181AC5007511E6 /* MineSweeperTests */,
+				1B52E8522D181AC5007511E6 /* MineSweeperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B52E8312D181AC1007511E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B52E8472D181AC5007511E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B52E8512D181AC5007511E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08B6A466B563E7BAF4CCB32A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MineSweeper-MineSweeperUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13BC6C289072F3F4328F3992 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MineSweeper/Pods-MineSweeper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MineSweeper/Pods-MineSweeper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MineSweeper/Pods-MineSweeper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54BA74EB16DADE85C14BDE0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MineSweeper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8899A29C5DB410ACB3ABB790 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MineSweeper-MineSweeperUITests/Pods-MineSweeper-MineSweeperUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MineSweeper-MineSweeperUITests/Pods-MineSweeper-MineSweeperUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MineSweeper-MineSweeperUITests/Pods-MineSweeper-MineSweeperUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDBF1E8C8F91036FA2FB7D9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MineSweeperTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B52E82F2D181AC1007511E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B52E8452D181AC5007511E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B52E84F2D181AC5007511E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B52E84B2D181AC5007511E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B52E8322D181AC1007511E6 /* MineSweeper */;
+			targetProxy = 1B52E84A2D181AC5007511E6 /* PBXContainerItemProxy */;
+		};
+		1B52E8552D181AC5007511E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B52E8322D181AC1007511E6 /* MineSweeper */;
+			targetProxy = 1B52E8542D181AC5007511E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B52E85D2D181AC5007511E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5C717E9E7A8B1681BC543ED /* Pods-MineSweeper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6538NBCCY8;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MineSweeper/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.easytime.minesweeper.MineSweeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B52E85E2D181AC5007511E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1710286202BBA843A25168ED /* Pods-MineSweeper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6538NBCCY8;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MineSweeper/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.easytime.minesweeper.MineSweeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1B52E85F2D181AC5007511E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B52E8602D181AC5007511E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B52E8622D181AC5007511E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F07A000BAF2AF7A5D1A6D74D /* Pods-MineSweeperTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6538NBCCY8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.easytime.minesweeper.MineSweeperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MineSweeper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MineSweeper";
+			};
+			name = Debug;
+		};
+		1B52E8632D181AC5007511E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBF9C3130C9E9DADAB4C6272 /* Pods-MineSweeperTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6538NBCCY8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.easytime.minesweeper.MineSweeperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MineSweeper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MineSweeper";
+			};
+			name = Release;
+		};
+		1B52E8652D181AC5007511E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F168A5514301F2E9F895814D /* Pods-MineSweeper-MineSweeperUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6538NBCCY8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.easytime.minesweeper.MineSweeperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MineSweeper;
+			};
+			name = Debug;
+		};
+		1B52E8662D181AC5007511E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8FAF1F068B4DCE3E4CC736A /* Pods-MineSweeper-MineSweeperUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6538NBCCY8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.easytime.minesweeper.MineSweeperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MineSweeper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B52E82E2D181AC1007511E6 /* Build configuration list for PBXProject "MineSweeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B52E85F2D181AC5007511E6 /* Debug */,
+				1B52E8602D181AC5007511E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B52E85C2D181AC5007511E6 /* Build configuration list for PBXNativeTarget "MineSweeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B52E85D2D181AC5007511E6 /* Debug */,
+				1B52E85E2D181AC5007511E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B52E8612D181AC5007511E6 /* Build configuration list for PBXNativeTarget "MineSweeperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B52E8622D181AC5007511E6 /* Debug */,
+				1B52E8632D181AC5007511E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B52E8642D181AC5007511E6 /* Build configuration list for PBXNativeTarget "MineSweeperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B52E8652D181AC5007511E6 /* Debug */,
+				1B52E8662D181AC5007511E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B52E82B2D181AC1007511E6 /* Project object */;
+}
